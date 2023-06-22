@@ -1,0 +1,11 @@
+First we'll create the basic skeleton of the Google Sheets application
+it has a:
+-Nav bar
+-cut,copy actions bar
+-formula bar
+-actual cells
+-sheets bar
+Once we've created the skeleton its time to add content in it
+First the nav bar.
+Then Add icons in the prop actions bar from material icons
+Then we need to add a drop down to select the font and font size

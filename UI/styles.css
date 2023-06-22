@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.page-actions-container{
+    height: 3rem;
+    background-color: darkgreen;
+    display: flex;
+    align-items: flex-end;
+}
+.page-actions{
+    margin: 0.5rem;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.page-actions:hover{
+    background-color: #d1d8e0;
+    color: black;
+}
+
+.prop-actions-container{
+    height: 3rem;
+    background-color: #d1d8e0;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+.prop-actions-container > * {
+    display: inline-block;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.prop-actions-container > select {
+    border: none;
+    border-radius: 0.1rem;
+    outline: none;
+}
+.font-family-prop{
+    padding: 0.4rem;
+}
+.font-size-prop{
+    padding: 0.4rem;
+}
+.font-family-prop{
+    padding: 0.4rem;
+}
+
+.formula-actions-container{
+    height: 3rem;
+    background-color: lightcoral;
+}
+
+.grid-actions-container{
+    height: calc(100vh - 3rem - 3rem - 3rem - 2rem);
+    background-color: lightpink;
+}
+.sheet-actions-container{
+    height: 2rem;
+    background-color: lightsalmon;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.sheet-actions-container > div{
+    display: inline-block;
+}
+.sheets-folder-container{
+    height: 1rem;
+    background-color: aqua;
+    width: 6rem;
+}
